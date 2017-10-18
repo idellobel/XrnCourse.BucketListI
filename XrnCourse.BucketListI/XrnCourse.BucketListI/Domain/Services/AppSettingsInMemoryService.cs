@@ -21,11 +21,11 @@ namespace XrnCourse.BucketListI.Domain.Services
             return currentSettings;
         }
 
-        public async Task SaveSettings(AppSettings settings) {
+        public async Task SaveSettings(AppSettings settings)
+        {
                 await Task.Delay(Constants.Mocking.FakeDelay);
                 currentSettings = settings;
-            }
-
+        
         }
 
     }
