@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="preferExternal" package="com.xrncourse.bucketlist">
 	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="XrnCourse.BucketListI.Android"></application>
+	<application android:label="Bucket List"></application>
 </manifest>
